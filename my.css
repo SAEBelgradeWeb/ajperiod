@@ -1,1 +1,11 @@
 /* Put your custom CSS here */
+#textarea-1 {
+	
+	border:none;
+	background-color: #FFFF66;
+	height: 100%;
+	width: 100%;
+}
+#notes label {
+	text-align: center;
+}
