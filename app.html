@@ -20,14 +20,14 @@
         <script src="jQuery.ui.datepicker.mobile.js" type="text/javascript" ></script>
         <link href="jquery.mobile-1.0a2/default.css" rel="stylesheet" type="text/css" />
     <link href="datepicker/docs.css" rel="stylesheet" type="text/css" />
-    <script src="datepicker/js.js" type="text/javascript"></script>
+
     <script src="datepicker/dFormat.js" type="text/javascript"></script>
       <script type="text/javascript">
           $(document).ready(function () {
               // alert('here');
               //$('#dStr').html(new Date().format("fullDate"));
               var cd = new Date();
-              $('#dStr').html(dateFormat(cd, "fullDate"));
+              $('#dStr').html(dateFormat(cd, "fullDate")); 
               $('#mon').val(dateFormat(cd, "mmm"));
               $('#day').val(dateFormat(cd, "dd"));
               $('#year').val(dateFormat(cd, "yyyy"));
@@ -252,6 +252,32 @@
                             <h1>
                                 iPeriod
                             </h1>
+                    <div id="omotac">
+                            <a href="#popupLogin" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-icon="check" data-theme="a" data-transition="pop" id="sifra_dugme">Promeni sifru</a>
+                            <div data-role="popup" id="popupMenu" data-theme="a">
+                                <div data-role="popup" id="popupLogin" data-theme="a" class="ui-corner-all">
+                                    <form>
+                                        <div style="padding:10px 20px;">
+                                          <h3>Promeni sifru</h3>
+                                          <label for="un" class="ui-hidden-accessible">Ime:</label>
+                                          <input name="user" id="un" value="" placeholder="Ime" data-theme="a" type="text">
+                                          <label for="pw" class="ui-hidden-accessible">Sifra:</label>
+                                          <input name="pass" id="pw" value="" placeholder="Sifra" data-theme="a" type="password">
+                                          <button type="submit" data-theme="b" data-icon="check">Izmeni</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div data-role="fieldcontain">
+                            <label for="select-native-1">Izaberi temu:</label>
+                            <select name="select-native-1" id="select-native-1">
+                                <option value="1">Plava tema</option>
+                                <option value="2">Zelena tema</option>
+                                <option value="3">Crvena tema</option>
+                                <option value="4">Zuta tema</option>
+                            </select>
+                        </div>
+                    </div>
                             <a class="dugme" data-role="button" data-inline="true" data-    theme="a" href="#home" data-icon="home" data-iconpos="top">
                             </a>
                         </div>
