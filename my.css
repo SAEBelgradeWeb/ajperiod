@@ -1,4 +1,5 @@
 /* Put your custom CSS here */
+
 #textarea-1 {
 	
 	border:none;
@@ -9,3 +10,17 @@
 #notes label {
 	text-align: center;
 }
+
+
+#sifra_dugme {
+	
+}
+
+#omotac {
+	height: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+
+
