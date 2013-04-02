@@ -22,5 +22,54 @@
 	text-align: center;
 }
 
+/* SREDJIVANJE REMINDER-a */
+
+#reminder {
+	background-image: url('images/pozadina.jpg');
+}
+
+.test {
+	background-color: #8D6FA5;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin: 10px;
+}
+
+#dStr {
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding: 17px 0;
+}
+
+.plusminus {
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 75px 75px 75px 75px;
+    margin: 0 25px 2px;
+    padding: 10px 0;
+    text-align: center;
+    width: 44px;
+}
+
+.kalendar {
+	width:66px;
+    padding:0px;
+    height:38px;
+    margin:15px;
+}
+
+.setcancel {
+	font-size:20px;
+    text-align: center;
+    padding: 10px 0px;
+    margin:2px;
+}
+
+.trajanje {
+	width: 14% !important;
+}
+/* ZAVRSEN REMINDER */
 
 
